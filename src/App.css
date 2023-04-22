@@ -1,0 +1,49 @@
+
+  .container-principal{
+    background-color: #333335;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .logo{
+    max-width: 400px;
+    margin-bottom: 24px;
+    height: 290px;
+  border-radius: 80px;
+  border-style: groove;
+  }
+  
+  
+  h1{
+    color: white;
+    font-size: 30px;
+  }
+
+  .btn-deslogar {
+    color: #fff;
+      background-color: #d55858;
+      padding: 10px;
+      border-style: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100px;
+      position: fixed;
+      top: 30px;
+      right: 10px;
+  }
+
+  .btn-deslogar:hover {
+    transition: all 0.3s ease;
+    background-color: #993b3b;
+  }
+
+  .button-cta:hover, .button-nova-senha:hover {
+    transition: all 0.5s ease;
+    background-color: #103478;
+  }
+
+
